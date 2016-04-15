@@ -1,0 +1,184 @@
+body {
+    background-color: #fff;
+    background-image: url(../images/symphony.png);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    color: #FFC2CD;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+a.bg-info:hover{background-color:}
+
+@media (max-width: 1000px) {
+    .img-responsive {
+        max-width: 20%;
+        min-width: 125px;
+    }
+}
+
+h2 {
+    color: #FFC2CD;
+    font-size: 1.5em;
+}
+
+#carouselbox {
+    background-color: #464646;
+}
+
+#introbox {
+    height: 20px;
+    background-color: #C8CDC6;
+    color: #464646;
+}
+
+#categorybox {
+    background-color: #232323;
+    background-image: url(../images/symphony-dark.png);
+    width: auto;
+    color: #fff;
+    padding-top: 20px;
+}
+
+#contentbox {
+}
+
+#footerbox {
+    background-color: #232323;
+    background-image: url(../images/symphony-dark.png);
+}
+
+.container {
+    padding-top: 0%;
+}
+
+.navbar-default {
+    border: none;
+}
+
+.navbar, .navbar-inverse {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+    min-height: 60px;
+    background-color: #232323;
+    background-image: url(../images/symphony-dark.png);
+    height: 50px;
+    width: 100%;
+    
+}
+
+.nav li {
+    display: inline;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+    padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    /*background-color: #fff;
+    transition: 0.7s all linear;
+    height: 50px;*/
+    color: #FFF;
+}
+
+.category {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.content p {
+    font-size: 1.25em;
+}
+
+.formbox {
+    background-color: #FFC2CD;
+    padding: 5px 15px 15px 15px;
+    border-radius: 15px;
+    height: auto;
+}
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-text-left {
+    color: #ffffff;
+}
+
+.carousel slide {
+    margin-top: 10px;
+}
+
+.carousel-indicators {
+}
+
+.introheading {
+    font-size: 1.7em;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.glyphicon-leaf, .glyphicon-pencil {
+    float: left;
+    padding-right: 15px;
+    margin-top: 12px;
+}
+
+span.glyphicon-leaf {
+    font-size: 2.0em;
+}
+
+span.glyphicon-pencil {
+    font-size: 2.0em;
+}
+
+
+img.grayscale{ 
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all .40s ease;  /* Transition for Webkit browsers */
+}
+
+img.grayscale:hover{ 
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+}
+
+.panel-group {
+    padding-top: 20px;
+}
+
+.panel-default img {
+	float: right;
+	height: 1.5em;
+    width: 1.5em;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.acclink {
+    color: #000;    
+}
+
+.panel-group a:hover {
+    color: #000;
+    text-decoration: none;
+}
